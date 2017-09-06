@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         myBuild.setPositiveButton("Si", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(),"Hola metodo",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Hola a todos como estan",Toast.LENGTH_LONG).show();
                 Intent ir = new Intent(MainActivity.this,Home.class);
                 startActivity(ir.addFlags(ir.FLAG_ACTIVITY_CLEAR_TOP | ir.FLAG_ACTIVITY_CLEAR_TASK));
             }
